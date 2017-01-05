@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F03DE6381E1E006E0022C68C /* PodTestA112233.h in Headers */ = {isa = PBXBuildFile; fileRef = F03DE6371E1E006E0022C68C /* PodTestA112233.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F03DE6CC1E1E58E10022C68C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03DE6CB1E1E58E10022C68C /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F03DE6341E1E006E0022C68C /* PodTestA112233.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodTestA112233.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03DE6371E1E006E0022C68C /* PodTestA112233.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodTestA112233.h; sourceTree = "<group>"; };
 		F03DE6391E1E006E0022C68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03DE6CB1E1E58E10022C68C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +23,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03DE6CC1E1E58E10022C68C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,6 +33,7 @@
 		F03DE62A1E1E006E0022C68C = {
 			isa = PBXGroup;
 			children = (
+				F03DE6CB1E1E58E10022C68C /* UIKit.framework */,
 				F03DE6361E1E006E0022C68C /* PodTestA112233 */,
 				F03DE6351E1E006E0022C68C /* Products */,
 			);
@@ -235,6 +239,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PodTestA112233/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moxian.mopal.group.PodTestA112233;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -251,6 +256,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PodTestA112233/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moxian.mopal.group.PodTestA112233;
 				PRODUCT_NAME = "$(TARGET_NAME)";
